@@ -3,35 +3,35 @@ Usage
 
 # 1. [Experiments]
 
-1.1 [Pretest]
+## 1.1 [Pretest]
 
-1.1.1. horse (url)
-
-cmd) python model_v20.py -t url -m all
-
-
-1.1.2. sports (url)
+### 1.1.1. horse (url)
 
 cmd) python model_v20.py -t url -m all
 
 
-
-1.1.3. horse and sports (url)
+### 1.1.2. sports (url)
 
 cmd) python model_v20.py -t url -m all
 
 
 
+### 1.1.3. horse and sports (url)
 
-1.2 [Test]
+cmd) python model_v20.py -t url -m all
 
-1.2.1. horse (url + index + whois) - ratio 1 vs 1
+
+
+
+## 1.2 [Test]
+
+### 1.2.1. horse (url + index + whois) - ratio 1 vs 1
 
 cmd) python model_v20.py -t all -m all
 
 
 
-1.2.2. horse (label encoding + n gram) - ratio 1 vs 1
+### 1.2.2. horse (label encoding + n gram) - ratio 1 vs 1
 
 cmd) 
 cmd) 
@@ -85,5 +85,5 @@ Illegal site
 
 
 # 3. [Misc]
-3.1 [Feature collector]
-3.2 [Word files]
+## 3.1 [Feature collector]
+## 3.2 [Word files]
