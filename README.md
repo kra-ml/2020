@@ -33,10 +33,14 @@ cmd) python model_v20.py -t all -m all
 
 ### 1.2.2. horse (label encoding + n gram) - ratio 1 vs 1
 
-cmd) 
-cmd) 
-cmd) 
-cmd) 
+cmd) python model_v20.py -t label -m all
+
+cmd) python model_v20.py -t ngram -m all
+
+cmd) python model_v20.py -t label_ngram -m all
+
+cmd) python model_v20.py -t full_label_ngram -m all
+
 
 
 
