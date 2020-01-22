@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <style>
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed');
+
+.preserve-3d {
+    transform-style: preserve-3d;
+    -webkit-transform-style: preserve-3d;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    width : 300px;
+    height : 200px;
+    overflow-x: none;
+    background-color: #ffffff;
+    font-family: Roboto Condensed, sans-serif;
+    font-size: 12px;
+    font-smooth: always;
+    -webkit-font-smoothing: antialiased;
+}
+
+.back {
+    width: 33%;
+    height: 200px;
+    float: left;
+    background-color: #eeeeee;
+    border: 10px;
+    border-color: #ffffff;
+    border-style: solid;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    counter-increment: bc;
+    padding: 0px 5px 5px 5px;
+}
+
+
+@media screen and (max-width: 1260px) {
+    .back {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 840px) {
+    .back {
+        width: 100%;
+    }
+}
+
+.button_base {
+    margin: 0;
+    border: 0;
+    font-size: 18px;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    margin-top: -80px;
+    margin-left: -75px;
+    width: 150px;
+    height: 50px;
+    text-align: center;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-user-select: none;
+    cursor: default;
+}
+
+.button_base:hover {
+    cursor: pointer;
+}
+
+/* ### ### ### 01 */
+.b01_simple_rollover {
+    color: #000000;
+    border: #000000 solid 1px;
+    padding: 10px;
+    background-color: #ffffff;
+}
+
+.b01_simple_rollover:hover {
+    color: #ffffff;
+    background-color: #000000;
+}
+
+
+
+
+/* Animation keyframes - you need to add prefixes */
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+/* Loading animation container */
+.loading {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 28px;
+  height: 28px;
+  margin: -14px 0 0 -14px;
+}
+
+/* Spinning circle (inner circle) */
+.loading .maskedCircle {
+  width: 50px;
+  height: 50px;
+  border-radius: 12px;
+  border: 3px solid black;
+}
+
+/* Spinning circle mask */
+.loading .mask {
+  width: 12px;
+  height: 12px;
+  overflow: hidden;
+}
+
+/* Spinner */
+.loading .spinner {
+  position: absolute;
+  left: -5px;
+  top: 220px;
+  width: 40px;
+  height: 40px;
+  animation: spin 0.3s infinite linear;
+}
+
+
+.txt {
+  position: absolute;
+  top: 950px;
+  left: 55px;
+  font-size: 40px;
+}
+    </style>
+
+        <script type="text/javascript" src="lib/jquery-1.4.3.min.js"></script>
+        <script type="text/javascript" src="popup.js"></script>
+
+
+    </head>
+    <body>
+    <div class="back">
+    <p id='site' style='text-align: center; font-size: 0pt; margin-top: 50px;'>Current Site : </p>
+    <div id='bt' class="button_base b01_simple_rollover">Check</div>
+    </div>
+    
+    <!-- Loading animation container -->
+        <div class="loading">
+            <!-- We make this div spin -->
+            <div class="spinner">
+                <!-- Mask of the quarter of circle -->
+                <div class="mask">
+                    <!-- Inner masked circle -->
+                    <div class="maskedCircle"></div>
+                </div>
+            </div>
+        </div>
+    <div class='txt'>Illegal Site</div>
+
+
+
+
+    </body>
+</html>

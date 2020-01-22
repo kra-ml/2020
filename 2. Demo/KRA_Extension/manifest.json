@@ -1,0 +1,17 @@
+{
+    "manifest_version": 2,
+    "name": "KRA",
+    "version": "1",
+    "description": "Illegal Racing Site",
+    "browser_action": {
+        "default_popup": "popup.html"
+    },
+    "background": {
+        "scripts": ["background.js"]
+    },
+    "options_page": "index.html",
+    "permissions": [
+        "tabs",
+        "activeTab"
+    ]
+}
