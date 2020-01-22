@@ -1,7 +1,7 @@
 Usage
 ----
 
-1. [Experiments]
+#1. [Experiments]
 
 1.1 [Pretest]
 
@@ -43,7 +43,7 @@ cmd)
 
 
 
-2. [Demo] Detection of Illegal Online Gambling Websites 
+#2. [Demo] Detection of Illegal Online Gambling Websites 
 
 Run the web socket server(Already active) :
 
@@ -84,6 +84,6 @@ Illegal site
 
 
 
-3. [Misc]
+#3. [Misc]
 3.1 [Feature collector]
 3.2 [Word files]
