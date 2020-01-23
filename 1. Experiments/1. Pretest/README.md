@@ -61,7 +61,7 @@ WHOIS   2843
 Ratio 1(general):1(illegal)
 
 [General]
-URL     12000
+URL     12000(3000)
 INDEX   3000
 WHOIS   3000
 
