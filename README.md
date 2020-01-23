@@ -44,7 +44,7 @@ CMD) python model_v20.py -t full_label_ngram -m all
 
 
 
-
+<br><br><br>
 
 
 # 2. [Demo] Detection of Illegal Online Gambling Websites 
@@ -87,6 +87,7 @@ Illegal site
 ![illegal](https://user-images.githubusercontent.com/55607802/71304091-feb58700-2404-11ea-9563-1ff6ceb13313.png)
 
 
+<br><br><br>
 
 # 3. [Misc]
 ## 3.1 [Feature collector]
