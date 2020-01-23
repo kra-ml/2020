@@ -7,18 +7,18 @@ Usage
 
 ### 1.1.1. horse (url)
 
-cmd) python model_v20.py -t url -m all
+CMD) python model_v20.py -t url -m all
 
 
 ### 1.1.2. sports (url)
 
-cmd) python model_v20.py -t url -m all
+CMD) python model_v20.py -t url -m all
 
 
 
 ### 1.1.3. horse and sports (url)
 
-cmd) python model_v20.py -t url -m all
+CMD) python model_v20.py -t url -m all
 
 
 
@@ -27,19 +27,19 @@ cmd) python model_v20.py -t url -m all
 
 ### 1.2.1. horse (url + index + whois) - ratio 1 vs 1
 
-cmd) python model_v20.py -t all -m all
+CMD) python model_v20.py -t all -m all
 
 
 
 ### 1.2.2. horse (label encoding + n gram) - ratio 1 vs 1
 
-cmd) python model_v20.py -t label -m all
+CMD) python model_v20.py -t label -m all
 
-cmd) python model_v20.py -t ngram -m all
+CMD) python model_v20.py -t ngram -m all
 
-cmd) python model_v20.py -t label_ngram -m all
+CMD) python model_v20.py -t label_ngram -m all
 
-cmd) python model_v20.py -t full_label_ngram -m all
+CMD) python model_v20.py -t full_label_ngram -m all
 
 
 
@@ -51,7 +51,7 @@ cmd) python model_v20.py -t full_label_ngram -m all
 
 Run the web socket server(Already active) :
 
-    python server.py
+CMD) python server.py
 
 <p>
 
