@@ -8,7 +8,7 @@ URL     14633
 [Illegal]
 URL     3517
 
-<b>Command) python model_v20.py -t url -m [rf | svm | knn | nb| dt | all]</b>
+<b>CMD) python model_v20.py -t url -m [rf | svm | knn | nb| dt | all]</b>
 
 <br>
 
@@ -20,7 +20,7 @@ URL     14633
 [Illegal]
 URL     4818
 
-<b>Command) python model_v20.py -t url -m [rf | svm | knn | nb| dt | all]</b>
+<b>CMD) python model_v20.py -t url -m [rf | svm | knn | nb| dt | all]</b>
 
 <br>
 
@@ -32,7 +32,7 @@ URL     14633
 [Illegal]
 URL     8335
 
-<b>Command) python model_v20.py -t url -m [rf | svm | knn | nb| dt | all]</b>
+<b>CMD) python model_v20.py -t url -m [rf | svm | knn | nb| dt | all]</b>
 
 
 <br>
@@ -53,7 +53,7 @@ URL     2843
 INDEX   2843
 WHOIS   2843
 
-<b>Command) python model_v20.py -t [url | index | whois | all] -m [rf | svm | knn | nb| dt | all]</b>
+<b>CMD) python model_v20.py -t [url | index | whois | all] -m [rf | svm | knn | nb| dt | all]</b>
 
 <br>
   
@@ -70,5 +70,5 @@ URL     2843
 INDEX   2843
 WHOIS   2843
 
-<b>Command) python model_v20 -t [url | index | whois | all] -m [rf | svm | knn | nb| dt | all]</b>
+<b>CMD) python model_v20 -t [url | index | whois | all] -m [rf | svm | knn | nb| dt | all]</b>
 
