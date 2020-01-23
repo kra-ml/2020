@@ -10,7 +10,6 @@ URL     3517
 
 Command) python model_v20.py -t url -m [rf | svm | knn | nb| dt | all]
 
-<p>
 
 ## 2. Only illegal sports toto
 
@@ -22,7 +21,6 @@ URL     4818
 
 Command) python model_v20.py -t url -m [rf | svm | knn | nb| dt | all]
 
-<p>
 
 ## 3. Mix of illegal horse racing and sports toto
 
@@ -35,8 +33,8 @@ URL     8335
 Command) python model_v20.py -t url -m [rf | svm | knn | nb| dt | all]
 
 
-<p>
-<p>
+<br>
+<br>
 
 # [Using all features]
 
@@ -55,7 +53,7 @@ WHOIS   2843
 
 Command) python model_v20.py -t [url | index | whois | all] -m [rf | svm | knn | nb| dt | all]
 
-<p>
+
   
 ## 2. Only horse racing (URL, INDEX, WHOIS group) 
 ratio 1(general):1(illegal
