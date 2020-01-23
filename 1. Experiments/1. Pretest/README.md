@@ -1,6 +1,6 @@
-[Using only URL group features]
+# [Using only URL group features]
 
-1. horse 
+## 1. Only illegal horse racing
 
 [General]
 URL     14633
@@ -12,7 +12,7 @@ Command) python model_v20.py -t url -m [rf | svm | knn | nb| dt | all]
 
 
 
-2. sports 
+## 2. Only illegal sports toto
 
 [General]
 URL     14633
@@ -24,7 +24,7 @@ Command) python model_v20.py -t url -m [rf | svm | knn | nb| dt | all]
 
 
 
-3. horse & sports 
+## 3. Mix of illegal horse racing and sports toto
 
 [General]
 URL     14633
@@ -37,9 +37,10 @@ Command) python model_v20.py -t url -m [rf | svm | knn | nb| dt | all]
 
 
 
-[Using all features]
+# [Using all features]
 
-1. horse (url, index, whois) ratio 5:1
+## 1. Only horse racing (URL, INDEX, WHOIS group) 
+ratio 5(general):1(illegal)
 
 [General]
 URL     14633
@@ -55,7 +56,8 @@ Command) python model_v20.py -t [url | index | whois | all] -m [rf | svm | knn |
 
 
 
-2. horse (url, index, whois) ratio 1:1
+## 2. Only horse racing (URL, INDEX, WHOIS group) 
+ratio 1(general):1(illegal
 
 [General]
 URL     12000
