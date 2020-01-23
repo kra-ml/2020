@@ -1,4 +1,4 @@
-<b>CMD) python model_v20.py -t url -m all</b><br>
+<b>CMD) python model_v20.py -t url -m all</b>
 <br><br>
 target :         url    model :          rf<br>
 TN :    825.8   TP :    103.4<br>
