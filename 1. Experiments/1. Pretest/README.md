@@ -39,7 +39,7 @@ Command) python model_v20.py -t url -m [rf | svm | knn | nb| dt | all]
 # [Using all features]
 
 ## 1. Only horse racing (URL, INDEX, WHOIS group) 
-ratio 5(general):1(illegal)
+Ratio 5(general):1(illegal)
 
 [General]
 URL     14633
@@ -56,7 +56,7 @@ Command) python model_v20.py -t [url | index | whois | all] -m [rf | svm | knn |
 
   
 ## 2. Only horse racing (URL, INDEX, WHOIS group) 
-ratio 1(general):1(illegal
+Ratio 1(general):1(illegal)
 
 [General]
 URL     12000
@@ -68,5 +68,5 @@ URL     2843
 INDEX   2843
 WHOIS   2843
 
-Command) python model_v20 -t [url | index | whois | all] -m [rf | svm | knn | nb| dt | all]
+<b>Command) python model_v20 -t [url | index | whois | all] -m [rf | svm | knn | nb| dt | all]</b>
 
